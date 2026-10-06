@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "custommod",
+    "version": "1.0.0",
+    "name": "Custom Mod",
+    "description": "A custom Minecraft mod with a custom block and item.",
+    "authors": ["kllopdw2"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.kllopdw2.custommod.CustomMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4",
+        "fabric-api": "*"
+    }
+}
